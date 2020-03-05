@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/TestesUnitarios.iml" filepath="$PROJECT_DIR$/.idea/TestesUnitarios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/exercicios_testes_unitarios.iml" filepath="$PROJECT_DIR$/.idea/exercicios_testes_unitarios.iml" />
     </modules>
   </component>
 </project>
