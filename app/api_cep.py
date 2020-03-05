@@ -9,3 +9,7 @@ class ApiCep:
         cep_convertido_somente_em_numeros = _get_somente_numeros(cep)
         response = requests.get(f'http://www.viacep.com.br/ws/{cep_convertido_somente_em_numeros}/json/')
         return response.json()
+
+if __name__ == '__main__':
+    api = ApiCep()
+    print(api.execute("89066040"))
