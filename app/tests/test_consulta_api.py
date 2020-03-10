@@ -4,7 +4,7 @@ from unittest.mock import Mock, patch, call
 from run import consulta_api_viacep
 
 
-class MockConsultaApiViacep(TestCase):
+class TestConsultaApiViacep(TestCase):
 
     @patch('run.ApiCep.execute')
     @patch('run.input')
