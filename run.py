@@ -7,5 +7,6 @@ def consulta_api_viacep():
     print(json_cep)
     return 'Cep consultado com sucesso!'
 
+
 if __name__ == '__main__':
     consulta_api_viacep()
